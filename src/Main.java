@@ -23,11 +23,6 @@ public class Main {
         c4.phoneNumber = "0566778899";
         myContactsManager.addContact(c4);
 
-        Contact c5 = new Contact();
-        c5.name = "Eric";
-        c5.phoneNumber = "0188776655";
-        myContactsManager.addContact(c5);
-
         Contact result = myContactsManager.searchContact("Charlie");
         if (result != null) {
             System.out.println("Numéro de Charlie : " + result.phoneNumber);

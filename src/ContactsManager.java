@@ -5,7 +5,7 @@ public class ContactsManager {
 
     // Constructeur par défaut
     public ContactsManager() {
-        myFriends = new Contact[100]; // capacité max
+        myFriends = new Contact[500]; // capacité max
         friendsCount = 0;
     }
 
